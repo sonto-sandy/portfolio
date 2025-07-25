@@ -233,7 +233,30 @@ function App() {
             </div>
           </div>
         </div>
+        <div className='portfolio-header'>
+          <div>
+          <button className='btn-about-me'>CONTACT</button>
+          </div>          
+        </div>
+        <div className='portfolio-content'>
+            <p>
+              Feel free to reach out with any questions or project inquiries.
+            </p>
+          </div>
       </div>
+      <footer className="App-footer">
+        <div className="footer-content"> 
+          <img src={images["footer.svg"]} alt='foolter' className='footer-logo' />
+          <p className='footer-h4'>BACK TO HOME</p>        
+          <div className="social-icons-footer">
+            <a href="#"><img src={images["Vector(7).svg"]} alt='facebook' /></a>
+            <a href="#"><img src={images["Vector(8).svg"]} alt='linkedin' /></a>
+            <a href="#"><img src={images["Vector(9).svg"]} alt='instagram' /></a>
+            <a href="#"><img src={images["Vector(10).svg"]} alt='email' /></a>
+          </div>
+           <p>@2025 SAN Creation All Rights Reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 }
