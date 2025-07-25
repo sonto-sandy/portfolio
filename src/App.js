@@ -1,11 +1,12 @@
 import images from './images.js';
 import './App.css';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function App() {
 
   const [showMore, setShowMore] = useState(false);
   const [explore, setexplore] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const handleToggle = () => {
     setShowMore(!showMore);
@@ -14,12 +15,23 @@ function App() {
     setexplore(!explore);
   };
 
+
+
   return (
     <div className="App">
       <header className="App-header">
         <nav className="navbar">
-          <div className="nav-brand"><img src={images["logo.png"]} alt='logo'></img></div>
-          <ul className="nav-menu">
+          <div className="nav-brand">
+            <img src={images["logo.png"]} alt="logo" className="logo-desktop" />
+            <img src={images["logo.svg"]} alt="logo" className="logo-mobile" />
+          </div>
+          <div
+            className={`hamburger ${menuOpen ? 'rotate' : ''}`}
+            id="hamburger"
+            onClick={() => setMenuOpen(!menuOpen)}>
+            <img src={images["hambar.svg"]} alt="menu" />
+          </div>
+          <ul className={`nav-menu ${menuOpen ? 'open' : ''}`}>
             <li><a href="#"><i className="fas fa-home"></i>Abount Me</a></li>
             <li><a href="#"><i className="fas fa-info-circle"></i>Skills</a></li>
             <li><a href="#"><i className="fas fa-cogs"></i>Portfolio</a></li>
@@ -31,21 +43,21 @@ function App() {
           </ul>
         </nav>
       </header>
-            <div className="hero">
-          <div className="hero-left">
-            <h3>Hi, I am</h3>
-            <h1>Santhosh D</h1>
-            <p>Full Stack Developer</p>
-            <div className="social-icons">
-              <a href="#"><img src={images["Vector.svg"]} alt='email' /></a>
-              <a href="#"><img src={images["Vector(1).svg"]} alt='github' /></a>
-              <a href="#"><img src={images["Vector(2).svg"]} alt='linkedin' /></a>
-            </div>
-          </div>
-          <div className="hero-right">
-            <img src={images["santhosh.svg"]} alt="Santhosh D" />
+      <div className="hero">
+        <div className="hero-left">
+          <h3>Hi, I am</h3>
+          <h1>Santhosh D</h1>
+          <p>Full Stack Developer</p>
+          <div className="social-icons">
+            <a href="#"><img src={images["Vector.svg"]} alt='email' /></a>
+            <a href="#"><img src={images["Vector(1).svg"]} alt='github' /></a>
+            <a href="#"><img src={images["Vector(2).svg"]} alt='linkedin' /></a>
           </div>
         </div>
+        <div className="hero-right">
+          <img src={images["santhosh.svg"]} alt="Santhosh D" />
+        </div>
+      </div>
       {/* About me */}
       <div className='about-me'>
         <h2>PERSONALITY HIGHLIGHTS</h2>
@@ -234,26 +246,26 @@ function App() {
         </div>
         <div className='portfolio-header'>
           <div>
-          <button className='btn-about-me'>CONTACT</button>
-          </div>          
+            <button className='btn-about-me'>CONTACT</button>
+          </div>
         </div>
         <div className='portfolio-content'>
-            <p>
-              Feel free to reach out with any questions or project inquiries.
-            </p>
-          </div>
+          <p>
+            Feel free to reach out with any questions or project inquiries.
+          </p>
+        </div>
       </div>
       <footer className="App-footer">
-        <div className="footer-content"> 
+        <div className="footer-content">
           <img src={images["footer.svg"]} alt='foolter' className='footer-logo' />
-          <p className='footer-h4'>BACK TO HOME</p>        
+          <p className='footer-p'>BACK TO HOME</p>
           <div className="social-icons-footer">
             <a href="#"><img src={images["Vector(7).svg"]} alt='facebook' /></a>
             <a href="#"><img src={images["Vector(8).svg"]} alt='linkedin' /></a>
             <a href="#"><img src={images["Vector(9).svg"]} alt='instagram' /></a>
             <a href="#"><img src={images["Vector(10).svg"]} alt='email' /></a>
           </div>
-           <p>@2025 SAN Creation All Rights Reserved.</p>
+          <p>@2025 SAN Creation All Rights Reserved.</p>
         </div>
       </footer>
     </div>
