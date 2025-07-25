@@ -105,6 +105,134 @@ function App() {
         <div className='portfolio-image'>
           <img src={images["separatorBlack.svg"]} alt="Portfolio" className='portfolio-image' />
         </div>
+
+        <div className='work-categories'>
+          <section class="services-section">
+            <div class="service-box">
+              <div class="icon"><img src={images["Design.svg"]} alt='design' /></div>
+              <h3>DESIGN</h3>
+              <p>I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job.</p>
+            </div>
+            <div class="service-box">
+              <div class="icon"><img src={images["Tools.svg"]} alt='tools' /></div>
+              <h3>DEVELOPMENT</h3>
+              <p>I build websites tailored to your needs, from scratch or based on your ideas, and keep you updated throughout the process.</p>
+            </div>
+            <div class="service-box">
+              <div class="icon"><img src={images["Computer Support.svg"]} alt='ComputerSupport' /></div>
+              <h3>MAINTENANCE</h3>
+              <p>I ensure your website stays updated, secure, and running smoothly with ongoing support.</p>
+            </div>
+          </section>
+          <div className='portfolio-image'>
+            <img src={images["separatorBlack.svg"]} alt="Portfolio" className='portfolio-image' />
+          </div>
+        </div>
+        <div className='skills'>
+          <div className='portfolio-header'>
+            <button className='btn-about-me' >SKILLS</button>
+          </div>
+        </div>
+        {/* frt */}
+        <div className="skills-section">
+          <div className="skills-heading">
+            <h3>TOOLS &<br />TECHNOLOGIES:</h3>
+          </div>
+          <div className="skills-content">
+            <div className="skill-box">
+              <img src={images["Git.svg"]} alt="Git" />
+              <p>GIT</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["GitHub.svg"]} alt="GitHub" />
+              <p>GITHUB</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["postman 1.svg"]} alt="Postman" />
+              <p>POSTMAN</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["swagger 1.svg"]} alt="Swagger" />
+              <p>SWAGGER</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["figma.svg"]} alt="Figma" />
+              <p>FIGMA</p>
+            </div>
+          </div>
+        </div>
+        {/* second */}
+        <div className="skills-section">
+          <div className="skills-heading">
+            <h3>WEB <br />TECHNOLOGIES:</h3>
+          </div>
+          <div className="skills-content">
+            <div className="skill-box">
+              <img src={images["html.svg"]} alt="HTML" />
+              <p>HTML</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["css.svg"]} alt="CSS" />
+              <p>CSS</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["bootstrap-solid.svg"]} alt="BOOTSTRAP" />
+              <p>BOOTSTRAP</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["js.svg"]} alt="JAVASCRIPT" />
+              <p>JAVASCRIPT</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["jqry.svg"]} alt="JQ" />
+              <p>JQUERY</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["Json.svg"]} alt="JSON" />
+              <p>JSON</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["RJS.svg"]} alt="REACTJS" />
+              <p>REACTJS</p>
+            </div>
+          </div>
+        </div>
+        {/* thrid */}
+        <div className="skills-section">
+          <div className="skills-heading">
+            <h3>DB <br />TECHNOLOGIES:</h3>
+          </div>
+          <div className="skills-content-third">
+            <div className="skill-box">
+              <img src={images["sql.svg"]} alt="sql" />
+              <p>SQL</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["sqlserver.svg"]} alt="sqlserver" />
+              <p>SQLSERVER</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["ocl.svg"]} alt="oracle" />
+              <p> ORACLE</p>
+            </div>
+          </div>
+        </div>
+        {/* four */}
+        <div className="skills-section">
+          <div className="skills-heading">
+            <h3>PROGRAMMING <br />LANGUAGES:</h3>
+          </div>
+          <div className="skills-content-third">
+            <div className="skill-box">
+              <img src={images["C.svg"]} alt="C#" />
+              <p>C#</p>
+            </div>
+            <div className="skill-box">
+              <img src={images["java.svg"]} alt="java" />
+              <p>SQLSERVER</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
