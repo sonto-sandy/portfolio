@@ -30,7 +30,8 @@ function App() {
             </li>
           </ul>
         </nav>
-        <div className="hero">
+      </header>
+            <div className="hero">
           <div className="hero-left">
             <h3>Hi, I am</h3>
             <h1>Santhosh D</h1>
@@ -45,8 +46,6 @@ function App() {
             <img src={images["santhosh.svg"]} alt="Santhosh D" />
           </div>
         </div>
-
-      </header>
       {/* About me */}
       <div className='about-me'>
         <h2>PERSONALITY HIGHLIGHTS</h2>

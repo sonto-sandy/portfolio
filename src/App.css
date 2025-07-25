@@ -11,17 +11,17 @@ body {
 }
 
 .App-header {
-  background-image: url('/assets/images/background.svg');
+  /* background-image: url('/assets/images/background.svg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 
 }
 
 .navbar {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 0; 
   width: 100%;
   background-color: transparent;
   backdrop-filter: blur(4px);
@@ -67,8 +67,12 @@ body {
 
 .hero {
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
   overflow: hidden;
+    background-image: url('/assets/images/background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-left {
@@ -101,13 +105,13 @@ body {
 }
 
 .hero-left p {
-  font-size: 18px;
+  font-size: 25px;
   color: #777;
   margin-bottom: 30px;
 }
 
 .hero-left h3 {
-  font-size: 24px;
+  font-size: 30px;
   color: #000;
 }
 
@@ -149,7 +153,7 @@ body {
 .about-me p {
   color: #ccc;
   text-align: left;
-  padding: 5px 20px;
+  padding: 16px 315px 0px 20px;
 }
 
 .btn-read-more {
@@ -293,8 +297,8 @@ p {
 }
 
 .skill-box img {
-  width: 100px;
-  height: 40%;
+  width: 120px;
+  height:120px;
   object-fit: contain;
 }
 
