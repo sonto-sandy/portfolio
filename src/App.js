@@ -23,8 +23,8 @@ function App() {
         <nav className="navbar">
           <div className="nav-brand">
             <a href="#Home" className="logo-link">
-            <img src={images["logo.png"]} alt="logo" className="logo-desktop" />
-            <img src={images["logo.svg"]} alt="logo" className="logo-mobile" />
+              <img src={images["logo.png"]} alt="logo" className="logo-desktop" />
+              <img src={images["logo.svg"]} alt="logo" className="logo-mobile" />
             </a>
           </div>
           <div
@@ -52,22 +52,22 @@ function App() {
           <p>Full Stack Developer</p>
           <div className="social-icons">
             <a href="mailto:santho7sandy@gmailcom">
-              <img src={images["Vector.svg"]} alt='email'  className='logo-desktop'/>
+              <img src={images["Vector.svg"]} alt='email' className='logo-desktop' />
               <img src={images["Vector(11).svg"]} alt='email' className='logo-mobile' />
-              </a>
+            </a>
             <a href="https://github.com/sonto-sandy">
               <img src={images["Vector(1).svg"]} alt='github' className='logo-desktop' />
               <img src={images["Vector(14).svg"]} alt='github' className='logo-mobile' />
-              </a>
+            </a>
             <a href="https://www.linkedin.com/in/santhoshDass/">
               <img src={images["Vector(2).svg"]} alt='linkedin' className='logo-desktop' />
               <img src={images["Vector(15).svg"]} alt='linkedin' className='logo-mobile' />
-              </a>
+            </a>
           </div>
         </div>
         <div className="hero-right">
           <img src={images["santhosh.svg"]} alt="Santhosh D" className="logo-desktop" />
-           <img src={images["santhosh-mobile.svg"]} alt="Santhosh D" className="logo-mobile" />
+          <img src={images["santhosh-mobile.svg"]} alt="Santhosh D" className="logo-mobile" />
         </div>
       </div>
       {/* About me */}
@@ -259,7 +259,7 @@ function App() {
         <div className='portfolio-header'>
           <div>
             <a href="tel:+917540034688">
-            <button className='btn-about-me'>CONTACT</button></a>
+              <button className='btn-about-me'>CONTACT</button></a>
           </div>
         </div>
         <div className='portfolio-content'>
@@ -271,7 +271,7 @@ function App() {
       <footer className="App-footer">
         <div className="footer-content">
           <a href="#Home" className="footer-logo-link">
-          <img src={images["footer.svg"]} alt='foolter' className='footer-logo' />
+            <img src={images["footer.svg"]} alt='foolter' className='footer-logo' />
           </a>
           <p className='footer-p'>BACK TO HOME</p>
           <div className="social-icons-footer">

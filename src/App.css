@@ -10,13 +10,11 @@
     font-family: "Montserrat", sans-serif;
   }
 
-  .App-header {
-    /* background-image: url('/assets/images/background.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-
+  html {
+    scroll-behavior: smooth;
   }
+
+  .App-header {}
 
   .navbar {
     position: fixed;
