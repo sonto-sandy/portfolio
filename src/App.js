@@ -55,7 +55,8 @@ function App() {
           </div>
         </div>
         <div className="hero-right">
-          <img src={images["santhosh.svg"]} alt="Santhosh D" />
+          <img src={images["santhosh.svg"]} alt="Santhosh D" className="logo-desktop" />
+           <img src={images["santhosh-mobile.svg"]} alt="Santhosh D" className="logo-mobile" />
         </div>
       </div>
       {/* About me */}
