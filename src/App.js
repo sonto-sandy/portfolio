@@ -252,7 +252,7 @@ function App() {
             </div>
             <div className="skill-box">
               <img src={images["java.svg"]} alt="java" />
-              <p>SQLSERVER</p>
+              <p>JAVA</p>
             </div>
           </div>
         </div>
