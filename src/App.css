@@ -485,7 +485,7 @@
       position: relative;
       z-index: 2;
       width: 100%;
-      padding: 400px 0px 0px 30px;
+      padding: 400px 53px 0px 30px;
       /* background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent); */
       box-sizing: border-box;
     }
@@ -520,8 +520,15 @@
     }
 
     .social-icons a {
-      background-color:transparent;
+      background-color: transparent;
       padding: 4px;
     }
+
+    .hero-left {
+      background-image: url('/assets/images/port-background.svg');
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+
 
   }
