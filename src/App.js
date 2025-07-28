@@ -32,9 +32,9 @@ function App() {
             <img src={images["hambar.svg"]} alt="menu" />
           </div>
           <ul className={`nav-menu ${menuOpen ? 'open' : ''}`}>
-            <li><a href="#"><i className="fas fa-home"></i>Abount Me</a></li>
-            <li><a href="#"><i className="fas fa-info-circle"></i>Skills</a></li>
-            <li><a href="#"><i className="fas fa-cogs"></i>Portfolio</a></li>
+            <li><a href="#AboutMe"><i className="fas fa-home"></i>Abount Me</a></li>
+            <li><a href="#Skills"><i className="fas fa-info-circle"></i>Skills</a></li>
+            <li><a href="#Portfolio"><i className="fas fa-cogs"></i>Portfolio</a></li>
             <li>
               <a href="tel:+917540034688" className="btn-link btn-color">
                 <i className="fas fa-envelope"></i>CONTACT ME
@@ -69,7 +69,7 @@ function App() {
         </div>
       </div>
       {/* About me */}
-      <div className='about-me'>
+      <div id='AboutMe' className='about-me'>
         <h2>PERSONALITY HIGHLIGHTS</h2>
         <p>Flexible with taking up extra tasks to be supportive of the project
           Have taken up complex issues involving major changes and deployed it
@@ -94,7 +94,7 @@ function App() {
         </button>
       </div>
       {/* portfolio */}
-      <div className='portfolio'>
+      <div id='Portfolio' className='portfolio'>
         <div className='portfolio-header'>
           <button className='btn-about-me' >ABOUT ME</button>
         </div>
@@ -149,7 +149,7 @@ function App() {
             <img src={images["separatorBlack.svg"]} alt="Portfolio" className='portfolio-image' />
           </div>
         </div>
-        <div className='skills'>
+        <div id='Skills' className='skills'>
           <div className='portfolio-header'>
             <button className='btn-about-me' >SKILLS</button>
           </div>
