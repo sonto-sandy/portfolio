@@ -49,9 +49,18 @@ function App() {
           <h1>Santhosh D</h1>
           <p>Full Stack Developer</p>
           <div className="social-icons">
-            <a href="#"><img src={images["Vector.svg"]} alt='email' /></a>
-            <a href="#"><img src={images["Vector(1).svg"]} alt='github' /></a>
-            <a href="#"><img src={images["Vector(2).svg"]} alt='linkedin' /></a>
+            <a href="#">
+              <img src={images["Vector.svg"]} alt='email'  className='logo-desktop'/>
+              <img src={images["Vector(11).svg"]} alt='email' className='logo-mobile' />
+              </a>
+            <a href="#">
+              <img src={images["Vector(1).svg"]} alt='github' className='logo-desktop' />
+              <img src={images["Vector(14).svg"]} alt='email' className='logo-mobile' />
+              </a>
+            <a href="#">
+              <img src={images["Vector(2).svg"]} alt='linkedin' className='logo-desktop' />
+              <img src={images["Vector(15).svg"]} alt='email' className='logo-mobile' />
+              </a>
           </div>
         </div>
         <div className="hero-right">

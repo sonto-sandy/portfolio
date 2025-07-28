@@ -485,9 +485,43 @@
       position: relative;
       z-index: 2;
       width: 100%;
-      padding: 1.5rem;
+      padding: 400px 0px 0px 30px;
       /* background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent); */
       box-sizing: border-box;
+    }
+
+    .hero-left h3 {
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 0px !important;
+    }
+
+    .hero-left h1 {
+      font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 0px !important;
+      color: white;
+    }
+
+    .hero-left p {
+      font-size: 13px;
+      color: #fff;
+      margin-bottom: 0px !important;
+    }
+
+    .social-icons {
+      position: absolute;
+      right: 1rem;
+      bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      z-index: 3;
+    }
+
+    .social-icons a {
+      background-color:transparent;
+      padding: 4px;
     }
 
   }
