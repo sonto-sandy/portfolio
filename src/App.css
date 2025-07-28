@@ -485,9 +485,14 @@
       position: relative;
       z-index: 2;
       width: 100%;
-      padding: 400px 53px 0px 30px;
+      /* padding: 400px 53px 0px 30px; */
       /* background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent); */
       box-sizing: border-box;
+      display: flex;
+      align-content: end;
+      justify-content: end;
+      padding: 33px;
+
     }
 
     .hero-left h3 {
