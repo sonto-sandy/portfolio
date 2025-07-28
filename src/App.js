@@ -36,8 +36,8 @@ function App() {
             <li><a href="#"><i className="fas fa-info-circle"></i>Skills</a></li>
             <li><a href="#"><i className="fas fa-cogs"></i>Portfolio</a></li>
             <li>
-              <a href="#" className="btn-link">
-                <i className="fas fa-envelope btn-color"></i>CONTACT ME
+              <a href="tel:+917540034688" className="btn-link btn-color">
+                <i className="fas fa-envelope"></i>CONTACT ME
               </a>
             </li>
           </ul>
@@ -256,7 +256,8 @@ function App() {
         </div>
         <div className='portfolio-header'>
           <div>
-            <button className='btn-about-me'>CONTACT</button>
+            <a href="tel:+917540034688">
+            <button className='btn-about-me'>CONTACT</button></a>
           </div>
         </div>
         <div className='portfolio-content'>
